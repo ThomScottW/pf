@@ -80,7 +80,8 @@ body {
 
 .skills {
     background-color: #76BA99;
-    height: 400px;
+    overflow: auto;
+    color: white;
 }
 
 .skills h1 {
@@ -90,4 +91,26 @@ body {
     margin: 0;
     padding-top: 60px;
     color: white;
+}
+
+.skill-row {
+    width: 75%;
+    max-width: 986.25;
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+
+.skill-row span {
+    font-weight: bold;
+}
+
+.skill-column {
+    width: 40%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.skill-column img {
+    width: 30%;
 }
