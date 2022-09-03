@@ -37,9 +37,10 @@ body {
 }
 
 .pfp {
-  width: 25%;
+  width: 35%;
   float: left;
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 .bio {
