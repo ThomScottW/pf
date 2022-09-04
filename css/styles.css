@@ -112,6 +112,14 @@ body {
 
 .skill-column img {
   width: 30%;
+  height: auto;
+  transition: transform .7s ease-in-out;
+  border-bottom: transparent;
+  border-bottom-width: 1px;
+}
+
+.skill-column img:hover {
+  transform: rotateY(360deg) scale(115%);
 }
 
 .projects {
