@@ -81,6 +81,7 @@ body {
   background-color: #76ba99;
   overflow: auto;
   text-align: center;
+  color: rgba(255, 255, 255, 0.75)
 }
 
 .skills h1 {
@@ -88,6 +89,10 @@ body {
   font-size: 60px;
   margin-top: 60px;
   margin-bottom: 60px;
+  color: white;
+}
+
+.skills h2 {
   color: white;
 }
 
