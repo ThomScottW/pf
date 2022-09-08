@@ -4,9 +4,21 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bar {
+nav {
   background-color: #73a9ad;
   display: flex;
+}
+
+.nav-link {
+  color: black;
+}
+
+
+
+.navbar-brand {
+  color: black;
+  font-weight: bolder;
+  padding-left: 10px;
 }
 
 .barname {
@@ -81,7 +93,7 @@ body {
   background-color: #76ba99;
   overflow: auto;
   text-align: center;
-  color: rgba(255, 255, 255, 0.75)
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .skills h1 {
@@ -116,7 +128,7 @@ body {
 
 .skill-column img {
   width: 30%;
-  transition: transform .7s ease-in-out;
+  transition: transform 0.7s ease-in-out;
   border-bottom: transparent;
   border-bottom-width: 1px;
 }
