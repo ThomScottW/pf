@@ -117,20 +117,19 @@ nav {
   font-weight: bold;
 }
 
-.skill-column {
-  width: 30%;
-  display: inline-block;
-  margin: 0 auto;
+.skill-col {
+  /* width: 30%; */
+  /* display: inline-block; */
+  /* margin: 0 auto; */
 }
 
-.skill-column img {
-  width: 30%;
+.skill-col img {
+  width: 20%;
   transition: transform 0.7s ease-in-out;
-  border-bottom: transparent;
-  border-bottom-width: 1px;
+  margin-bottom: 10px;
 }
 
-.skill-column:hover > img {
+.skill-col:hover > img {
   transform: rotate(360deg) scale(110%);
 }
 
