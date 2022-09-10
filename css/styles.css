@@ -13,8 +13,6 @@ nav {
   color: black;
 }
 
-
-
 .navbar-brand {
   color: black;
   font-weight: bolder;
@@ -49,19 +47,18 @@ nav {
 }
 
 .pfp {
-  width: 35%;
-  float: left;
-  margin-right: 20px;
-  margin-top: 20px;
+  width: 50%;
+  /* float: left; */
+  /* margin-right: 20px;
+  margin-top: 20px; */
 }
 
 .bio {
   background-color: #f7f4ee;
   overflow: auto;
-}
-
-.bio h3 {
-  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bio-row {
