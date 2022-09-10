@@ -117,10 +117,9 @@ nav {
   font-weight: bold;
 }
 
-.skill-col {
-  /* width: 30%; */
-  /* display: inline-block; */
-  /* margin: 0 auto; */
+.skill-col a{
+  color: rgb(233, 138, 21);
+  font-weight: bold;
 }
 
 .skill-col img {
@@ -147,28 +146,15 @@ nav {
   margin-bottom: 60px;
 }
 
-.projects-row {
-  width: 75%;
-  max-width: 986.25;
-  display: flex;
-  margin: auto;
-}
-
-.projects-column {
-  width: 30%;
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.projects-column p {
+.projects-col p {
   font-weight: bold;
 }
 
-.projects-column img {
+.projects-col img {
   width: 30%;
 }
 
-.projects-column a {
+.projects-col a {
   color: rgb(233, 138, 21);
 }
 
