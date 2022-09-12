@@ -4,9 +4,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.bar {
+nav {
   background-color: #73a9ad;
   display: flex;
+}
+
+.nav-link {
+  color: black;
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bolder;
+  padding-left: 10px;
 }
 
 .barname {
@@ -37,19 +47,18 @@ body {
 }
 
 .pfp {
-  width: 35%;
-  float: left;
-  margin-right: 20px;
-  margin-top: 20px;
+  width: 50%;
+  /* float: left; */
+  /* margin-right: 20px;
+  margin-top: 20px; */
 }
 
 .bio {
   background-color: #f7f4ee;
   overflow: auto;
-}
-
-.bio h3 {
-  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .bio-row {
@@ -81,7 +90,7 @@ body {
   background-color: #76ba99;
   overflow: auto;
   text-align: center;
-  color: rgba(255, 255, 255, 0.75)
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .skills h1 {
@@ -108,20 +117,18 @@ body {
   font-weight: bold;
 }
 
-.skill-column {
-  width: 30%;
-  display: inline-block;
-  margin: 0 auto;
+.skill-col a{
+  color: rgb(233, 138, 21);
+  font-weight: bold;
 }
 
-.skill-column img {
-  width: 30%;
-  transition: transform .7s ease-in-out;
-  border-bottom: transparent;
-  border-bottom-width: 1px;
+.skill-col img {
+  width: 20%;
+  transition: transform 0.7s ease-in-out;
+  margin-bottom: 10px;
 }
 
-.skill-column:hover > img {
+.skill-col:hover > img {
   transform: rotate(360deg) scale(110%);
 }
 
@@ -139,28 +146,15 @@ body {
   margin-bottom: 60px;
 }
 
-.projects-row {
-  width: 75%;
-  max-width: 986.25;
-  display: flex;
-  margin: auto;
-}
-
-.projects-column {
-  width: 30%;
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.projects-column p {
+.projects-col p {
   font-weight: bold;
 }
 
-.projects-column img {
+.projects-col img {
   width: 30%;
 }
 
-.projects-column a {
+.projects-col a {
   color: rgb(233, 138, 21);
 }
 
