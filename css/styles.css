@@ -105,13 +105,13 @@ nav {
   color: white;
 }
 
-.skill-row {
+/* .skill-row {
   width: 75%;
   max-width: 986.25;
   display: flex;
   margin: auto;
   margin-bottom: 20px;
-}
+} */
 
 .skill-row span {
   font-weight: bold;
@@ -150,8 +150,43 @@ nav {
   font-weight: bold;
 }
 
-.projects-col img {
-  width: 30%;
+/* .projects-col img {
+  height: 250px;
+  width: 500px;
+  object-fit: cover;
+  opacity: 0.25;
+  position: relative;
+} */
+
+.projects-col {
+  margin: 4px;
+  background-size: contain;
+  justify-content: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.proj1 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url("../proj1pic.jpg");
+}
+
+.proj2 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url("../proj2pic.jpg");
+}
+
+.proj3 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url("../proj3pic.jpg");
+}
+
+.proj4 {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url("../proj4pic.jpg");
+}
+
+
+
+.projects-col h4 {
+  position:relative;
+  color: white;
 }
 
 .projects-col a {
@@ -163,6 +198,7 @@ nav {
   text-align: center;
   overflow: auto;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 footer {
