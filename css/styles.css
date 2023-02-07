@@ -105,14 +105,6 @@ nav {
   color: white;
 }
 
-/* .skill-row {
-  width: 75%;
-  max-width: 986.25;
-  display: flex;
-  margin: auto;
-  margin-bottom: 20px;
-} */
-
 .skill-row span {
   font-weight: bold;
 }
@@ -139,6 +131,7 @@ nav {
   padding-bottom: 60px;
 }
 
+
 .projects h1 {
   font-weight: bold;
   font-size: 60px;
@@ -150,15 +143,8 @@ nav {
   font-weight: bold;
 }
 
-/* .projects-col img {
-  height: 250px;
-  width: 500px;
-  object-fit: cover;
-  opacity: 0.25;
-  position: relative;
-} */
-
 .projects-col {
+  min-height: 300px;
   margin: 4px;
   background-size: contain;
   justify-content: center;
@@ -167,19 +153,99 @@ nav {
 }
 
 .proj1 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url("../proj1pic.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url('../proj1pic.jpg');
+  position: relative;
+  z-index:1;
+}
+
+.proj1::before {
+  content: "";
+  background-image: radial-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85)), url('../proj1pic.jpg');
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: opacity 500ms;
+  opacity: 0;
+}
+
+.proj1:hover::before {
+  opacity: 1;
 }
 
 .proj2 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url("../proj2pic.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url('../proj2pic.jpg');
+  position: relative;
+  z-index:1;
+}
+
+.proj2::before {
+  content: "";
+  background-image: radial-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85)), url('../proj2pic.jpg');
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: opacity 500ms;
+  opacity: 0;
+}
+
+.proj2:hover::before {
+  opacity: 1;
 }
 
 .proj3 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url("../proj3pic.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url('../proj3pic.jpg');
+  position: relative;
+  z-index:1;
+}
+
+.proj3::before {
+  content: "";
+  background-image: radial-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85)), url('../proj3pic.jpg');
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: opacity 500ms;
+  opacity: 0;
+}
+
+.proj3:hover::before {
+  opacity: 1;
 }
 
 .proj4 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url("../proj4pic.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85) 70%), url('../proj4pic.jpg');
+  position: relative;
+  z-index:1;
+}
+
+.proj4::before {
+  content: "";
+  background-image: radial-gradient(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.85)), url('../proj4pic.jpg');
+  background-size: contain;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left:0;
+  z-index:0;
+  transition: opacity 500ms;
+  opacity: 0;
+}
+
+.proj4:hover::before {
+  opacity: 1;
 }
 
 
