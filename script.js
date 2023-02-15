@@ -8,5 +8,6 @@ for (let i = 0; i < projects.length; i++)
     const h4 = project.querySelector('h4');
     project.addEventListener("click", function() {
         h4.style.color = 'red';
+        project.style.setProperty('--before-opacity', '0');
     });
 }
