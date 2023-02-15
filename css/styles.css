@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  background-color: #73a9ad;
+  background-color: #6096B4;
   display: flex;
 }
 
@@ -54,7 +54,7 @@ nav {
 }
 
 .bio {
-  background-color: #f7f4ee;
+  background-color: #EEE9DA;
   overflow: auto;
   width: 100%;
   padding-top: 10px;
@@ -87,7 +87,7 @@ nav {
 }
 
 .skills {
-  background-color: #76ba99;
+  background-color: #6096B4;
   overflow: auto;
   text-align: center;
   color: rgba(255, 255, 255, 0.75);
@@ -125,7 +125,7 @@ nav {
 }
 
 .projects {
-  background-color: #f7f4ee;
+  background-color: #93BFCF;
   overflow: auto;
   text-align: center;
   padding-bottom: 60px;
@@ -137,6 +137,7 @@ nav {
   font-size: 60px;
   margin-top: 60px;
   margin-bottom: 60px;
+  color: white;
 }
 
 .projects-col p {
@@ -174,6 +175,13 @@ nav {
 
 .proj1:hover::before {
   opacity: 1;
+}
+
+#proj1-description.hidden {
+  display: none;
+}
+#proj1-description {
+  margin-top: 20px;
 }
 
 .proj2 {
@@ -260,7 +268,7 @@ nav {
 }
 
 .contact {
-  background-color: #73a9ad;
+  background-color: #EEE9DA;
   text-align: center;
   overflow: auto;
   padding-bottom: 20px;
